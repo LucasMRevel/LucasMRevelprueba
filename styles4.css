@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+
+.html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.87);
+    padding-left: 30px;
+}
+
+h3, p, h1{
+    color: white;
+}
+
+.boton{
+    background-color: rgba(0, 255, 55, 0.774);
+    color: black;
+    padding: 16px 48px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: black;
+    color: rgba(0, 255, 55, 0.774);
+
+}
